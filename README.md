@@ -40,3 +40,5 @@ How to  write angular code to make a dynamic web app.
 
 - Open the first project and learn the files.
 .json, how the typescript code will be compiled to javascript
+
+-learned all the files and its uses in the Angular app.

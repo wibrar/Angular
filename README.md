@@ -74,3 +74,6 @@ Signals makes angular get rid of Zone concept.
 used components input decorater
 ! with any Input variable means it currently is nopt initialised but it will be later in the app.
 the app component now has a the users imported and are accessed there. 
+- what are required and optional inputs.
+when you add required: true like this in an input in any case that input is empty, it gives aan error.
+  @Input({required: true}) avatar!: string; 

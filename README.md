@@ -89,3 +89,7 @@ use emit (select) method to emit output that value
 construct a onSelectUser method to 
 use the same method in the app component html then the select output method will output the id.
 
+- another output method
+  select = output<string>();
+this method already knows to make a new eventEmitter. not a signal.
+when using no decoraters, ots better to use this approach, new aswell.

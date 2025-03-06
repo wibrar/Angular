@@ -58,3 +58,4 @@ name the class like NameComponent
 - How to change the state and manage data.
 - learnt that angular has a property that it checks what data has been changed and easily, withour any extra work adds changes to the HTML.
 - what are signals?
+- how does angular have flexible components.

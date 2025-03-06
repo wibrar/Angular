@@ -82,3 +82,10 @@ can pass non signal value to a signal.
 
 - both the signals and the other input decorator approaches are good. We use signals necause it is more efficient, however it does not matter in this case. rather we will be using the other decorater approach.
 
+
+- outputs
+event emitter
+use emit (select) method to emit output that value 
+construct a onSelectUser method to 
+use the same method in the app component html then the select output method will output the id.
+

@@ -41,4 +41,19 @@ How to  write angular code to make a dynamic web app.
 - Open the first project and learn the files.
 .json, how the typescript code will be compiled to javascript
 
--learned all the files and its uses in the Angular app.
+Initially the file had errors in main.ts file. I had to install node Packages by opening terminal. `npm install`.
+
+- scripts are injected in the HTML by the angular CLI. 
+Learned how components end up on the screen.
+
+-slpit elements by multiple components.
+build building blocks as individualcomponents.
+how to name components.
+name.component.ts
+name the class like NameComponent
+
+- String interpolation nd property binding
+-binding attributes
+- Learnt users event listener.
+- How to change the state and manage data.
+- learnt that angular has a property that it checks what data has been changed and easily, withour any extra work adds changes to the HTML.

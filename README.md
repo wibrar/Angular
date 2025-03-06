@@ -57,5 +57,20 @@ name the class like NameComponent
 - Learnt users event listener.
 - How to change the state and manage data.
 - learnt that angular has a property that it checks what data has been changed and easily, withour any extra work adds changes to the HTML.
+angular has its own framework zone.js
+automatically listens to aall user events
+its checks the angular application for any changes
+
 - what are signals?
+another way to store the sate of a variable
+donot have a initial value, it can be changesd, use a set method to change the value
+when using signals you have to put the value in the html as a function not a variable. by using () parenthesis
+it tells angular that you a re trying to get that value as a signal. and rhis value will be reevaluated, sets upa a tracking mechanism
+Zonen instead is a grouping mechanism that checks all kinds of changes in the angular app, could be data change. 
+Signals makes angular get rid of Zone concept.
+
 - how does angular have flexible components.
+- changed the whole structure of the app. 
+used components input decorater
+! with any Input variable means it currently is nopt initialised but it will be later in the app.
+the app component now has a the users imported and are accessed there. 

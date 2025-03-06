@@ -77,3 +77,8 @@ the app component now has a the users imported and are accessed there.
 - what are required and optional inputs.
 when you add required: true like this in an input in any case that input is empty, it gives aan error.
   @Input({required: true}) avatar!: string; 
+- lowercase input is aspecial  function
+can pass non signal value to a signal.
+
+- both the signals and the other input decorator approaches are good. We use signals necause it is more efficient, however it does not matter in this case. rather we will be using the other decorater approach.
+

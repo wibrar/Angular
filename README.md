@@ -93,3 +93,7 @@ use the same method in the app component html then the select output method will
   select = output<string>();
 this method already knows to make a new eventEmitter. not a signal.
 when using no decoraters, ots better to use this approach, new aswell.
+
+- with the older method it could emit any value, thats why you should add a type to the output.
+- made another compoenent that will display tasks for each user in the users list.
+- added another input method in the tasks component. some errors for now but will fix it.

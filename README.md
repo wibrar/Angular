@@ -99,3 +99,6 @@ when using no decoraters, ots better to use this approach, new aswell.
 - added another input method in the tasks component. some errors for now but will fix it.
 
 - fixed the errors
+- learned what ? and ! means in typescript.
+could use this instead of ?:
+  @Input( {required: true} ) name:string | undefined;

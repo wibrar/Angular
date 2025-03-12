@@ -106,3 +106,16 @@ could use this instead of ?:
   - how to make abstract data types for app.
   use user as a new type and load that from the users.
   - we can also use type method to make a new type and use that in the input.
+  - can also use interface for creating object types.
+
+  - how to put data in dynamically?
+  we can user  for statements is angular. we use it in the html like:
+  <!-- @for (user of users; track user.id) {
+            <li>
+                <app-user 
+                [user]="user" 
+                (select)="onSelectUser($event)"
+                />
+            </li>
+        } -->
+

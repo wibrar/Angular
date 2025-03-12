@@ -119,3 +119,26 @@ could use this instead of ?:
             </li>
         } -->
 
+  - use this for older versions of angular.
+  <!-- <li*ngFor="let user of users"> -->
+  for this import ngFor in the components ts file to use.
+
+- use @if statements and @else statements.
+for older versions:
+*ngIf="condition; else condition" whats to be done.
+<!-- <ng-template #condition>
+todo
+</ng-template> -->
+also have to import ngIf
+
+- created another component task to display all the tasks.
+- added basic html for add task like buttons tite, due date and summary.
+- made a dummy task list for displaying in tasks component.
+- created a get method for getting the selectedUserTasks
+- made an input method in the task component to get the task from tasks component.
+- edited rest of the files accordingly.
+
+exercises done:
+- made another newTask component that opens a form to add new tasks conditionally.
+- made sure the cancel button and clicking the back drop button closes the new task form by setting isAddingNewtask as false.
+

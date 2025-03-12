@@ -102,3 +102,7 @@ when using no decoraters, ots better to use this approach, new aswell.
 - learned what ? and ! means in typescript.
 could use this instead of ?:
   @Input( {required: true} ) name:string | undefined;
+
+  - how to make abstract data types for app.
+  use user as a new type and load that from the users.
+  - we can also use type method to make a new type and use that in the input.

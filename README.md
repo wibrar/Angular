@@ -138,7 +138,22 @@ also have to import ngIf
 - made an input method in the task component to get the task from tasks component.
 - edited rest of the files accordingly.
 
+- put the interfaces/ abstract data types as model files.
+
 exercises done:
 - made another newTask component that opens a form to add new tasks conditionally.
 - made sure the cancel button and clicking the back drop button closes the new task form by setting isAddingNewtask as false.
 
+- learned two way binding. using this method:
+[(ngModel)]="variable"
+donnot forget to import FormsModule in the component.
+- you  could use signals if needed with two way binding. you donot have to change the html.
+
+- how to make a css globally available to all components.
+we use ng-content.
+first make a new component and add the specific css component to that file.
+then change the html for that file. if using div instead use the new components html there.
+then use ng-content feature to display that content in the new components html.
+this is called content projection,
+
+-

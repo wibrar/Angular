@@ -156,4 +156,4 @@ then change the html for that file. if using div instead use the new components 
 then use ng-content feature to display that content in the new components html.
 this is called content projection,
 
--
+- added services

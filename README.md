@@ -158,4 +158,4 @@ this is called content projection,
 
 - added services
 - what are services?
-nothing
+- added a persistent storage to the task managing app.
